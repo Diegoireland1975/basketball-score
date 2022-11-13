@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="shortcut icon" href="img/basketball.png">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <img class="home-logo" src="img/Boston_Celtics.svg.png" alt="Celtics logo">
+            <h2 class="score" id="home-score">0</h2>
+            <div class="buttons">
+                <button id="home-score-btn-1">+1</button>
+                <button id="home-score-btn-2">+2</button>
+                <button id="home-score-btn-3">+3</button>
+                <button class="reset" id="home-reset"> home reset</button>
+            </div>
+        </div>
+        <div class="column">
+            <img class="guest-logo" src="img/Los_Angeles_Lakers_logo.png" alt="Lakers logo">
+            <h2 class="score" id="guest-score">0</h2>
+            <div class="buttons">
+                <button id="guest-score-btn-1">+1</button>
+                <button id="guest-score-btn-2">+2</button>
+                <button id="guest-score-btn-3">+3</button>
+                <button class="reset" id="guest-reset"> guest reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
