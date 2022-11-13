@@ -29,6 +29,7 @@ h3 {
   font-family: "Verdana";
   color: #fff;
   text-align: center;
+  text-transform: uppercase;
 }
 .score {
   font-family: "Cursed Timer ULiL", sans-serif;
